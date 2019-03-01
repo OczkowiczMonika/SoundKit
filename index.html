@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html>
+
+
+
+<head>
+
+
+
+    <meta charset="utf-8" />
+
+    <title>SoundKit</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+
+
+
+<body>
+
+
+    <div clas="keys">
+
+        <button  onclick="key1.play()">
+
+            <div data-key="1" class="key">
+
+                <kbd>1 <br> CYMBAL</kbd>
+
+            </div>
+
+        </button>
+    
+
+        <button  onclick="key2.play()">
+
+            <div data-key="2" class="key">
+
+                <kbd>2 <br> STICK</kbd>
+
+            </div>
+
+        </button>
+
+
+
+
+
+        <button  onclick="key3.play()">
+
+            <div data-key="3" class="key">
+
+                <kbd>3 <br> MUSIC</kbd>
+
+
+
+            </div>
+
+        </button>
+
+
+
+    </div>
+
+<div class="bb">
+
+
+
+    <div class="recorder">
+
+        <button class="btn" id="RECORD1">RECORD 1</button>
+
+        <button class="btn" id="RECORD2">RECORD 2</button>
+
+        <button class="btn" id="RECORD3">RECORD 3</button>
+
+    </div>
+
+
+
+    <div class="stop">
+
+        <button class="btn2" id="STOP1">STOP 1</button>
+
+        <button class="btn2" id="STOP2">STOP 2</button>
+
+        <button class="btn2" id="STOP3">STOP 3</button>
+
+
+    </div>
+
+
+
+    <div class="player">
+
+        <button class="btn3" id="PLAY1">PLAY 1</button>
+
+        <button class="btn3" id="PLAY2">PLAY 2</button>
+
+        <button class="btn3" id="PLAY3">PLAY 3</button>
+
+
+    </div>
+
+
+
+</div>
+ 
+    <audio data-key1="1"
+
+        src="https://sampleswap.org/samples-ghost/DRUMS%20(FULL%20KITS)/STYLE%20KITS%20(Hip%20Hop,%20Etc)/Electronic%20Jazz%20Kit/66[kb]CYMBAL03.aif.mp3"></audio>
+
+    <audio data-key2="2"
+
+        src="https://sampleswap.org/samples-ghost/DRUMS%20(FULL%20KITS)/STYLE%20KITS%20(Hip%20Hop,%20Etc)/Electronic%20Jazz%20Kit/6[kb]STICK.aif.mp3"></audio>
+
+    <audio data-key3="3"
+
+        src="https://sampleswap.org/samples-ghost/MELODIC%20LOOPS/KEYS%20ORGAN%20PIANO%20LOOPS/919[kb]090_hard-high-piano-arpeggio.wav.mp3"></audio>
+    
+
+
+
+
+    <script src="script.js" type="text/javascript"></script>
+
+
+</body>
+
+
+
+</html>
